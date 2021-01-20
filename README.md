@@ -44,3 +44,24 @@ $ vue add router
 명령어로 vue-router를 설치하고, 프로젝트에 router를 적용합니다.
 App.vue 내용이 덮어씌워집니다.
 
+
+
+# 🍐vuetify 적용
+
+## What is vuetify ?
+
+vuetify는 vue 위에 구축된 UI framework입니다. Material design을 기반으로 설계되었습니다.
+mobile first 설계되었습니다.
+
+## 장점
+
+1. Material design 명세를 따르기 때문에 Meterial design으로 설계된 프로젝트에 적합합니다. 
+2. 개발주기가 일주일에 한 번으로 패치가 굉장히 활발합니다.
+3. 공식문서도 굉장히 잘 정리되어있습니다.
+
+## 단점
+
+1. 커스터마이징 자유도가 떨어집니다.
+2. 종종 예상을 벗어난 동작을 하게됩니다.
+3. 불필요한 DOM 노드의 증가로 성능 이슈가 발생할 수 있습니다.
+
