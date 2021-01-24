@@ -46,7 +46,7 @@ App.vue 내용이 덮어씌워집니다.
 
 
 
-# 🍐vuetify 적용
+# 🍐vuetify 적용(현재 프로젝트에는 미적용 되어있습니다.)
 
 ## What is vuetify ?
 
@@ -65,3 +65,11 @@ mobile first 설계되었습니다.
 2. 종종 예상을 벗어난 동작을 하게됩니다.
 3. 불필요한 DOM 노드의 증가로 성능 이슈가 발생할 수 있습니다.
 
+
+# 🍆ESlint 설정
+
+ESLint는 JS 정적분석도구로 코드의 문법적 오류나 안티패턴을 찾아주는 도구입니다. 일관된 스타일로 코딩(포맷팅)할 수 있도록 도와주고, 앱의 잠재적인 버그를 예방(코드 품질)해 줍니다. 일일이 rule을 설정해줄 수도 있고, Airbnb style guide, Google style guide 등 미리 정해져있는 린트 설정들을 따르는 방법도 있습니다.
+
+## 설치
+
+.eslintrc.js 에 적용할 rule들을 적어주고, vue.config.js에 auto fix 설정을 추가했습니다. 
